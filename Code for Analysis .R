@@ -70,7 +70,7 @@ head(raw_lines)
 
 # In this case, use read_tsv.
 songs_clean <- read_tsv(
-  "D:/DATA SCIENCE 2 MORE SPACE/Coursework/Data Visualisation/MUSIC DATASET COMPILATION/songs.csv",
+  "D:/Music_Analytics_Project/songs.csv",
   quote = ""
 )
 
@@ -466,6 +466,7 @@ ggplot(plot_data, aes(x = Actual, y = Predicted)) +
        y = "Predicted Success",
        fill = "Number of Songs") +
   theme(plot.title = element_text(hjust = 0.5))
+
 
 
 
